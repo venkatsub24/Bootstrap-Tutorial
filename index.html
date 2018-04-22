@@ -49,6 +49,28 @@
         max-width: 200px;
         margin: 1% auto;
       }
+      footer{
+        width: 100%;
+        background-color: #5E4485;
+        padding: 5%;
+        color: #FFF;
+      }
+      .fa {
+          padding: 20px;
+          font-size: 25px;
+          color: #FFF;
+      }
+      .fa:hover {
+        color:#D5D5D5;
+        text-decoration: none;
+
+      }
+      @media (max-width: 900px) {
+          .fa {
+              font-size: 20px;
+              padding: 10px;
+          }
+      }
       @media (max-width: 600px) {
           .carousel-caption {
               display: none;
@@ -174,20 +196,39 @@
         </div>
     </div>
     <div class="container">
-            <div class="row">
+        <div class="row">
                 <h4><a href="#hidden" data-toggle="collapse"> Care to learn more about bootstrap?</a> </h4>
-                <div id="hidden" class="collapse">
-                    <h4> Here's the cool thing about bootstrap</h4>
-                    <p> This is the first paragraph. This always appears at the top. I dont know what I am typing here.
-                        But I just wanted to make sure that this is the first paragraph and it always appears at the top.
-                    </p>
-                    <p>
-                        This is the second paragraph. This always appears at the bottom. I dont know what I am typing here.
-                        But I just wanted to make sure that this is the second paragraph and it always appears at the bottom.
-                    </p>
-                </div>    
-                </div>
+            <div id="hidden" class="collapse">
+                <h4> Here's the cool thing about bootstrap</h4>
+                <p> This is the first paragraph. This always appears at the top. I dont know what I am typing here.
+                    But I just wanted to make sure that this is the first paragraph and it always appears at the top.
+                </p>
+                <p>
+                    This is the second paragraph. This always appears at the bottom. I dont know what I am typing here.
+                    But I just wanted to make sure that this is the second paragraph and it always appears at the bottom.
+                </p>
+            </div>    
+        </div>
+    </div>  
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3> Contact US</h3>
+                <br>
+                <h4>Our Address and Contact Info</h4>
             </div>
-        </div>    
+            <div class="col-sm-4">
+               <h3>Connect</h3>
+               <a href="#" class="fa fa-facebook"></a>
+               <a href="#" class="fa fa-youtube"></a>
+               <a href="#" class="fa fa-google"></a>
+               <a href="#" class="fa fa-linkedin"></a>
+               <a href="#" class="fa fa-twitter"></a>               
+            </div>
+            <div class="col-sm-4">
+                <img src="img/bunny.png" class="icon">
+            </div>
+        </div>
+    </footer> 
 </body>
 </html>
